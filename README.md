@@ -6,18 +6,18 @@ This project is a machine learning-based system for generating detailed descript
 
 The project is divided into three main components:
 
-### Image Description Generation (`create_descriptions.py`)
+### Image Description Generation (create_descriptions.py)
 
 - Loads images from various datasets.
 - Generates detailed descriptions for each image using Google Generative AI.
 - Saves the descriptions and the corresponding images to a CSV file and local directory, respectively.
 
-### Description Embedding Creation (`create_embeddings.py`)
+### Description Embedding Creation (create_embeddings.py)
 
 - Uses BERT to create embeddings from the generated image descriptions.
 - Saves the embeddings in a pickle file for later use in search queries.
 
-### Image Search Application (`app.py`)
+### Image Search Application (app.py)
 
 - Provides a user interface using Streamlit for searching images.
 - Uses FAISS to perform efficient similarity searches over the BERT embeddings.
