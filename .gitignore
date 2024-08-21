@@ -1,0 +1,47 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore log files
+*.log
+
+# Ignore compiled Python files
+*.pyc
+
+venv/
+images/
+
+# Ignore compiled Python files in a specific directory
+__pycache__/
+embeddings.pkl
+descriptions.csv
+
+# Ignore compiled Python files in all directories
+**/__pycache__/
+
+# Ignore build directories
+build/
+dist/
+
+# Ignore environment variable files
+.env
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+
+# Ignore coverage reports
+coverage/
+
+# Ignore all .txt files except specific ones
+*.txt
+!important.txt
+
+# Ignore all files in a specific directory
+/secret-directory/*
+
+# Ignore a specific file type in all subdirectories
+**/*.bak
